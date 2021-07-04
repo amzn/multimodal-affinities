@@ -1,11 +1,12 @@
 # Learning Multimodal Affinities for Textual Editing in Images
 
 This is the official implementation code accompanying the paper: 
-["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139).
+["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139) (ACM Transactions on Graphics 2021, presented in SIGGRAPH 2021).
 
-***Note: This README accompanies a pre-release submission; due to size limitations some of the mentioned files are missing:***
+***Note: This README accompanies a pre-release submission; due to size limitations some of the mentioned files are currently missing:***
 - Pretrained Font Embedder model, under `/models/resnet_font_classifier.pth`
 - Full test set, under `/datasets/doc_images`
+- TOG citation pending
 
 ![alt text](teaser.jpg "Learning Multimodal Affinities for Textual Editing in Images")
 
@@ -225,11 +226,10 @@ To connect as a client: browse the website link printed on the server console.
 If you use this code for your research, please cite our paper.
 
 ```bibtex
-@inproceedings{tbd,
+@inproceedings{perel2021multimodal,
     title={Learning Multimodal Affinities for Textual Editing in Images},
-    author={tbd},
-    booktitle = {tbd},
-    month = {tbd},
+    author = {Perel, Or and Anschel, Oron and Ben Eliezer, Omri and Mazor, Shai and Averbuch-Elor, Hadar},
+    month = {03},
     year = {2021}
 }
 ```
