@@ -1,13 +1,13 @@
 # Learning Multimodal Affinities for Textual Editing in Images
 
-This is the official code accompanying the paper: 
-"Learning Multimodal Affinities for Textual Editing in Images".
+This is the official implementation code accompanying the paper: 
+["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139).
 
 ***Note: This README accompanies a pre-release submission; due to size limitations some of the mentioned files are missing:***
 - Pretrained Font Embedder model, under `/models/resnet_font_classifier.pth`
 - Full test set, under `/datasets/doc_images`
-- Private details of authors that may viloate the anonymity of this submission.
 
+![alt text](teaser.jpg "Learning Multimodal Affinities for Textual Editing in Images")
 
 ## Installation
 
@@ -235,4 +235,4 @@ If you use this code for your research, please cite our paper.
 ```
 
 ## License
-multimodal-affinities is released under the MIT license. See the [LICENSE](LICENSE) and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) files for more information.
+multimodal-affinities is released under the Apache 2.0 license. See the [LICENSE](LICENSE) and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) files for more information.
