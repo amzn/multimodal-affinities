@@ -1,0 +1,86 @@
+{
+    "phrase_detection": {
+        "algorithm": "graph",
+        "parameters": {
+            "horizontal threshold": 0.55,
+            "vertical threshold": 0.0,
+            "post_processing_ordinals_threshold": 2.0
+        }
+    },
+    "embeddings_initialization": {
+        "nlp_phrase_embeddings": {
+            "character_embeddings": false,
+            "word_embeddings": [
+                "glove"
+            ],
+            "contextual_flair_embeddings": [
+                "news-forward",
+                "news-backward"
+            ],
+            "contextual_elmo_embeddings": [],
+            "contextual_bert_embeddings": [],
+            "sequence_encoder": "mean"
+        },
+        "font_embeddings": {
+            "word_level_embedding": true,
+            "phrase_level_embedding": false,
+            "trained_model_file": "models/resnet_font_classifier.pth",
+            "num_classes": 138
+        },
+        "geometry_embeddings": {
+            "word_level_embedding": false,
+            "phrase_level_embedding": true
+        },
+        "combined_embeddings": {
+            "strategy": "mlp",
+            "strategy_params": {
+                "nlp_words_dims": 4096,
+                "nlp_phrases_dims": 4096,
+                "font_words_dims": 512,
+                "font_phrases_dims": 512,
+                "geometry_words_dims": 4,
+                "geometry_phrases_dims": 4
+            }
+        }
+    },
+    "embeddings_refinement": {
+        "dropout": 0.2,
+        "batch_size": 32,
+        "learning_rate": 0.0001,
+        "epochs": 100,
+        "early_stop": false,
+        "gradient_clip": 5,
+        "push_pull_weight_ratio": 3.0,
+        "push_pull_decay": 0.86,
+        "reconstruction_loss_normalization": 0.0,
+        "normalize_embeddings_pre_process": false,
+        "normalize_embeddings_post_process": false,
+        "downsample_user_constraints": true,
+        "downsample_default_constraints": true,
+        "must_cannot_ratio": 1.5,
+        "font_word_mknn": 6,
+        "max_mustlink": 1000,
+        "constraints_types": [
+            "font",
+            "nlp-ner",
+            "geometry"
+        ],
+        "ae_dims": [
+            500,
+            2000,
+            20
+        ]
+    },
+    "clustering": {
+        "algorithm": "graph",
+        "parameters": {
+            "threshold": 0.15,
+            "mst_threshold": 0.5,
+            "max_island_cluster_size": 1,
+            "ratio_to_mean_dist_to_isolate": 2.0,
+            "distance_metric": "neural_affinity",
+            "height_ratio_cutoff_threshold": 0.25,
+            "reduce": "mean_without_log"
+        }
+    }
+}

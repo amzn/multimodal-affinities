@@ -1,0 +1,60 @@
+{
+
+
+ "dataset_details": {
+                "dataset_name": "font-1",
+                "dataset_params":
+                {
+                  "root_dir": "/datasets/fonts",
+                  "batch_size": 8
+              }
+ },
+
+
+
+ "model_details": {
+               "model_name": "pretrained_classifier",
+               "model_params": {
+
+                              "dbg_flag": false,
+                              "num_classes" : 232,
+                              "pretrained_model_name" : "resnet",
+                              "use_pretrained" : true,
+                              "update_only_last_layer" : false
+                             }
+ },
+
+
+ "loss_details": {
+               "loss_name": "cross_entropy",
+               "loss_params": {
+                        "dbg_flag": false
+               }
+ },
+
+
+ "optimizer_details": {
+               "optimizer_name": "adam",
+               "optimizer_params": {
+                                    "learning_rate": 0.0001,
+                                    "momentum": 0.9
+                                   }
+ },
+
+
+"training_details": {
+                "epochs": 500,
+                "test_freq": 100
+},
+
+
+
+
+"output_details": {
+              "visualize": true,
+              "out_dir": "/models",
+              "out_pfx": "resnet_font_classifier_"
+}
+
+
+ }
