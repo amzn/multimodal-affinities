@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import os, sys
 import cv2
 SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))

@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import torch
 from flair.embeddings import CharacterEmbeddings, WordEmbeddings, \
     FlairEmbeddings, ELMoEmbeddings, BertEmbeddings, \

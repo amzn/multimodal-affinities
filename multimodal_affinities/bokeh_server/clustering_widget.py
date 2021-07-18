@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 from bokeh.layouts import column, widgetbox
 from bokeh.models.widgets import Slider
 from bokeh.models.widgets import CheckboxGroup, RadioGroup

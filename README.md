@@ -1,12 +1,10 @@
 # Learning Multimodal Affinities for Textual Editing in Images
 
 This is the official implementation code accompanying the paper: 
-["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139) (ACM Transactions on Graphics 2021, presented in SIGGRAPH 2021).
+["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139), presented in SIGGRAPH 2021.
 
-***Note: This README accompanies a pre-release submission; due to size limitations some of the mentioned files are currently missing:***
+***Note: Due to size limitations some of the mentioned files are missing and will be added soon: ***
 - Pretrained Font Embedder model, under `/models/resnet_font_classifier.pth`
-- Full test set, under `/datasets/doc_images`
-- TOG citation pending
 
 ![alt text](teaser.jpg "Learning Multimodal Affinities for Textual Editing in Images")
 
@@ -174,9 +172,11 @@ _Note: within algorithm_config -- the entry `embeddings_initialization.font_embe
 
 ## Test Data
 
-The test set used in the paper is available at `/datasets/doc_images`.
+Due to legal constraints, we're currently unable to publicly release the complete test set used in this publication.
 
-The samples include the pre-processsed OCR files.
+Practitioners may run the paper code on their own document images.
+Make sure to pre-processing the images using an OCR engine according to the format described above (Tesseract, Textract).
+
 
 ## Running the GUI server
 
@@ -226,13 +226,25 @@ To connect as a client: browse the website link printed on the server console.
 If you use this code for your research, please cite our paper.
 
 ```bibtex
-@inproceedings{perel2021multimodal,
-    title={Learning Multimodal Affinities for Textual Editing in Images},
-    author = {Perel, Or and Anschel, Oron and Ben Eliezer, Omri and Mazor, Shai and Averbuch-Elor, Hadar},
-    month = {03},
-    year = {2021}
+@article{10.1145/3451340,
+author = {Perel, Or and Anschel, Oron and Ben-Eliezer, Omri and Mazor, Shai and Averbuch-Elor, Hadar},
+title = {Learning Multimodal Affinities for Textual Editing in Images},
+year = {2021},
+issue_date = {July 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {40},
+number = {3},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3451340},
+doi = {10.1145/3451340},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {26},
+numpages = {16},
+keywords = {multimodal representations, document images, Image editing, clustering, vision and language, infographics}
 }
 ```
 
 ## License
-multimodal-affinities is released under the Apache 2.0 license. See the [LICENSE](LICENSE) and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) files for more information.
+multimodal-affinities is released under the Creative Commons Attribution 4.0 International license. See the [LICENSE](LICENSE) and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) files for more information.

@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import itertools
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure

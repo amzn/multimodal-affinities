@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import itertools
 from itertools import chain
 from multimodal_affinities.clustering.clusteringsolver import ClusteringSolver

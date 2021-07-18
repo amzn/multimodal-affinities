@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 from multimodal_affinities.blocks.word import Word
 from multimodal_affinities.blocks.geometry import Geometry
 from shapely.geometry import Polygon

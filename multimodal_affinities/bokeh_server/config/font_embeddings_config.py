@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 from bokeh.models.widgets import MultiSelect, CheckboxGroup, Select, TextInput
 from multimodal_affinities.common_config import FONT_EMBEDDING_MODEL
 

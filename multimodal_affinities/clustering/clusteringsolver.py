@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import networkx as nx
 from networkx import DiGraph
 from networkx.algorithms import topological_sort

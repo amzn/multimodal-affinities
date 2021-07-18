@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 from torch import nn
 from multimodal_affinities.clustering.trainable.embeddings_mlp import EmbeddingsProjection
 from multimodal_affinities.clustering.trainable.sae import StackedAutoencoder

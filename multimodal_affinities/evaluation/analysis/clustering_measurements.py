@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-4.0
+
 import numpy as np
 from sklearn.metrics.cluster import adjusted_mutual_info_score
 from sklearn.metrics.cluster import normalized_mutual_info_score
