@@ -175,7 +175,7 @@ _Note: within algorithm_config -- the entry `embeddings_initialization.font_embe
 Due to legal constraints, we're currently unable to publicly release the complete test set used in this publication.
 
 Practitioners may run the paper code on their own document images.
-Make sure to pre-processing the images using an OCR engine according to the format described above (Tesseract, Textract).
+Make sure to pre-process the images using an OCR engine according to the format described above (Tesseract, Textract).
 
 
 ## Running the GUI server
