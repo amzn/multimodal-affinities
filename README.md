@@ -131,7 +131,7 @@ The synthetic data generator used to train the font embedder is available at
 \* A pretrained font embedder is available at `/models/resnet_font_classifier.pth`
 
 \*\* A small sample dataset is available at `/datasets/fonts` 
-(the full synthetic dataset is 20GB).
+(the full synthetic dataset is 20GB and excluded from this release).
 
 ## Inference
 
