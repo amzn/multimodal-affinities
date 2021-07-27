@@ -3,9 +3,6 @@
 This is the official implementation code accompanying the paper: 
 ["Learning Multimodal Affinities for Textual Editing in Images"](https://arxiv.org/abs/2103.10139), presented in SIGGRAPH 2021.
 
-***Note: Due to size limitations some of the mentioned files are missing and will be added soon: ***
-- Pretrained Font Embedder model, under `/models/resnet_font_classifier.pth`
-
 ![alt text](teaser.jpg "Learning Multimodal Affinities for Textual Editing in Images")
 
 ## Installation
