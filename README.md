@@ -13,7 +13,7 @@ Tested with CUDA 10.1, Ubuntu 18.
 ```shell script
 git clone multimodal-affinities
 cd multimodal-affinities
-conda create --name multimodal python=3.6
+conda create --name multimodal python=3.8
 conda activate multimodal
 make
 ```
