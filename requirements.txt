@@ -27,7 +27,7 @@ MarkupSafe==1.1.1
 matplotlib==3.3.3
 mpld3==0.3
 networkx==2.3
-numpy==1.19.5
+numpy>=1.22
 opencv-python==4.5.1.48
 overrides==3.0.0
 packaging==20.8
